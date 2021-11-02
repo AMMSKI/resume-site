@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
-import '../App.css';
+import '../StyleSheets/App.css';
 import image from '../Images/favicon.ico'
 import linked from '../Images/linkedin-blue-style-logo-png-0.png'
 import gitlogo from '../Images/GitHub-Mark-64px.png'

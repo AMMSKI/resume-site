@@ -2,8 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return(
-    <div style={styles.heroDiv}>
-      <div>
+    <div className='hero_container'>
+      <div className='hero_header'>
         <h1>Alan Mamulski</h1>
         <h3>Web Developer</h3>
       </div>
@@ -11,13 +11,5 @@ const Hero = () => {
   )
 }
 
-const styles = {
-  heroDiv:{
-    borderColor: 'black',
-    border: '2px solid',
-    height: '90vh',
-    padding: '10px',
-  }
-}
 
 export default Hero

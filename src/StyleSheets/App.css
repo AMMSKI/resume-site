@@ -1,0 +1,80 @@
+/* 
+Offwhite = #F0F6F7
+Greytext = rgb(96,101,106)
+font-family = Zen Antique Soft
+ */
+
+.App {
+  text-align: center;
+}
+
+.hero_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-position: center;
+  background-image: url(../Images/editedBackground.png);
+}
+
+.hero_header {
+  font-size: 24px;
+  font-family: Zen Antique Soft;
+  color: rgb(96,101,106);
+}
+
+.project_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  /* height: 80vh; */
+  background: url(../Images/computerbackground.jpeg), radial-gradient(circle, rgba(165,171,177,0.6474964985994398) 100%, rgba(59,54,56,0.4822303921568627) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: color;
+}
+
+.project_header{
+  font-size: 24px;
+  font-family: Zen Antique Soft;
+  color: #F0F6F7;
+}
+
+.project_inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  padding: 10px;
+  margin: 20px;
+  background: rgb(240,246,247);
+  background: radial-gradient(circle, rgba(240,246,247,0.5242471988795518) 100%, rgba(59,54,56,0.4822303921568627) 100%);
+  border-radius: 8px;
+}
+
+ .project_info {
+   color: rgb(96,101,106);
+   font-family: Zen Antique Soft;
+ }
+
+
+
+/* Embedded video styles */
+/* .video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+} */
