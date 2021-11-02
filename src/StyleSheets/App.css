@@ -8,6 +8,8 @@ font-family = Zen Antique Soft
   text-align: center;
 }
 
+/* hero section styles  */
+
 .hero_container {
   display: flex;
   justify-content: center;
@@ -22,6 +24,8 @@ font-family = Zen Antique Soft
   font-family: Zen Antique Soft;
   color: rgb(96,101,106);
 }
+
+/* project section styles */
 
 .project_container{
   display: flex;
@@ -61,20 +65,16 @@ font-family = Zen Antique Soft
    font-family: Zen Antique Soft;
  }
 
+ /* Tech section styles */
+
+ .tech_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-position: center;
+  background-image: url(../Images/editedBackground.png);
+ }
 
 
-/* Embedded video styles */
-/* .video-responsive {
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
-}
 
-.video-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-} */

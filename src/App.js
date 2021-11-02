@@ -4,6 +4,7 @@ import image from './Images/editedBackground.png'
 import styled from 'styled-components';
 import Navigation from './Components/Navbar';
 import Projects from './Components/Projects';
+import Tech from './Components/Tech';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className='App'>
         <Hero />
         <Projects />
+        <Tech />
       <div>
         <Navigation />
       </div>
