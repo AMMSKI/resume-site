@@ -8,22 +8,64 @@ font-family = Zen Antique Soft
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* hero section styles  */
 
 .hero_container {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  height: 80vh;
+  height: 85vh;
   background-size: cover;
   background-attachment: fixed;
   background-image: url(../Images/edited-marble.png);
 }
 
 .hero_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   font-size: 24px;
   font-family: Zen Antique Soft;
   color: rgb(96,101,106);
+  height: 100%;
+}
+
+.nav_bar{
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.nav_inner{
+  display: flex;
+  justify-content: space-around;
+  width: 20vw;
+  padding-left: 10px;
+}
+@media screen and (max-width:400px){
+  .nav_inner{
+  flex-direction: column;
+  }
+}
+.nav_bar a {
+  text-decoration: none;
+  color: rgb(96,101,106);
+  font-weight: 400;
+  font-size: larger;
+  font-family: Zen Antique Soft;
+}
+
+.nav_bar a:hover {
+  text-decoration: underline;
+  transform: scale(1.1); 
 }
 
 /* project section styles */
@@ -35,7 +77,7 @@ font-family = Zen Antique Soft
   justify-content: flex-start;
   padding: 20px;
   /* height: 80vh; */
-  background: url(../Images/computerbackground.jpeg), radial-gradient(circle, rgba(165,171,177,0.6474964985994398) 100%, rgba(59,54,56,0.4822303921568627) 100%);
+  background: url(../Images/computer-background.jpeg), radial-gradient(circle, rgba(165,171,177,0.6474964985994398) 100%, rgba(59,54,56,0.4822303921568627) 100%);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -45,7 +87,8 @@ font-family = Zen Antique Soft
 .project_header{
   font-size: 24px;
   font-family: Zen Antique Soft;
-  color: #F0F6F7;
+  text-shadow: 2px 2px 18px rgba(48,39,42,0.91);
+  color: #F8F9FA;
 }
 
 .project_inner {
@@ -71,8 +114,10 @@ font-family = Zen Antique Soft
 }
 
  .project_info {
-   color: rgb(96,101,106);
-   font-family: Zen Antique Soft;
+  text-shadow: 2px 2px 18px rgba(48,39,42,0.91);
+  color: #F8F9FA;
+  font-weight: 900;
+  font-family: Zen Antique Soft;
  }
 
  /* Tech section styles */
@@ -129,20 +174,26 @@ font-family = Zen Antique Soft
   height: 80%;
   padding: 10px;
   margin: 20px;
-  background: rgb(240,246,247);
+  /* background: rgb(240,246,247);
   background: radial-gradient(circle, rgba(240,246,247,0.5242471988795518) 100%, rgba(59,54,56,0.4822303921568627) 100%);
-  border-radius: 8px;
+  border-radius: 8px; */
  }
 
  .about_header{
   font-size: 24px;
   font-family: Zen Antique Soft;
-  color: rgb(96,101,106);
+  font-weight: 900;
+  text-shadow: 2px 2px 18px rgba(48,39,42,0.91);
+  color: #F8F9FA;
+  /* color: rgb(96,101,106); */
  }
 
  .about_body{
   font-family: Zen Antique Soft;
-  color: rgb(96,101,106);
+  font-weight: 900;
+  font-size: 20px;
+  text-shadow: 2px 2px 18px rgba(48,39,42,0.91);
+  color: #F8F9FA;
  }
 
 /* footer styles */
@@ -160,4 +211,5 @@ font-family = Zen Antique Soft
 
 .footer_icon{
   height: 40px;
+  padding: 5px
 }

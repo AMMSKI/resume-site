@@ -6,7 +6,10 @@ const Projects = () => {
 
 
   return(
-    <div className='project_container'>
+    <div id="projects" className='project_container'>
+      <div className='project_header'>
+      <h1>Projects</h1>
+      </div>
       <div className='project_inner'>
         <div className='project_info'>
           <h2>blah blah balh</h2><br/>

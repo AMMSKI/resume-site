@@ -10,7 +10,7 @@ import jest_image from '../Images/jest-logo.png'
 
 const Tech = () => {
   return (
-    <div className='tech_container'>
+    <div id="tech" className='tech_container'>
       <div className='tech_inner'>
         <div className='tech_item'>
           <div className='tech_logo'>
