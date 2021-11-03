@@ -18,12 +18,12 @@ const Projects = () => {
           </ul>
         </div>
         <div className='video_container'>
-          <YoutubeEmbed embedId={'kdWov5fjQl0'} />
+          <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
         </div>
       </div>
-      <div className='project_inner'>
+      {/* <div className='project_inner'>
         <div className='video_container'>
-          <YoutubeEmbed embedId={'kdWov5fjQl0'} />
+          <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
         </div>
         <div className='project_info'>
           <h2>blah blah balh</h2><br/>
@@ -34,7 +34,7 @@ const Projects = () => {
             <li>and this</li>
           </ul>
         </div>
-      </div>
+      </div> */}
       <div className='project_inner'>
         <div className='project_info'>
           <h2>blah blah balh</h2><br/>
@@ -46,7 +46,7 @@ const Projects = () => {
           </ul>
         </div>
         <div className='video_container'>
-          <YoutubeEmbed embedId={'kdWov5fjQl0'} />
+          <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
         </div>
       </div>
     </div>
