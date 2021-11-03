@@ -15,8 +15,9 @@ font-family = Zen Antique Soft
   justify-content: center;
   align-items: center;
   height: 90vh;
+  background-size: cover;
   background-position: center;
-  background-image: url(../Images/editedBackground.png);
+  background-image: url(../Images/edited-marble.png);
 }
 
 .hero_header {
@@ -60,6 +61,15 @@ font-family = Zen Antique Soft
   border-radius: 8px;
 }
 
+@media screen and (max-width:400px) {
+  .project_inner{
+    flex-direction: column;
+  }
+  .video_container{
+    display: none;
+  }
+}
+
  .project_info {
    color: rgb(96,101,106);
    font-family: Zen Antique Soft;
@@ -72,8 +82,9 @@ font-family = Zen Antique Soft
   justify-content: center;
   align-items: center;
   height: 90vh;
-  background-position: center;
-  background-image: url(../Images/editedBackground.png);
+  background-size:cover;
+  background-position: fixed;
+  background-image: url(../Images/edited-marble.png);
  }
 
 

@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
       </div>
       <div className='project_inner'>
-        <div>
+        <div className='video_container'>
           <YoutubeEmbed embedId={'kdWov5fjQl0'} />
         </div>
         <div className='project_info'>
@@ -45,7 +45,7 @@ const Projects = () => {
             <li>and this</li>
           </ul>
         </div>
-        <div>
+        <div className='video_container'>
           <YoutubeEmbed embedId={'kdWov5fjQl0'} />
         </div>
       </div>
