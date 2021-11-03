@@ -14,9 +14,9 @@ font-family = Zen Antique Soft
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
-  background-position: center;
+  background-attachment: fixed;
   background-image: url(../Images/edited-marble.png);
 }
 
@@ -81,10 +81,27 @@ font-family = Zen Antique Soft
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 50vh;
   background-size:cover;
-  background-position: fixed;
+  background-attachment: fixed;
   background-image: url(../Images/edited-marble.png);
+ }
+
+ .tech_inner{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+
+ .tech_item{
+   display: flex;
+   padding: 30px;
+ }
+
+ .tech_logo img {
+   height: 100px;
+  
  }
 
 
