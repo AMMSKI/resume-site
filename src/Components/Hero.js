@@ -1,5 +1,5 @@
 import React from "react";
-import Am_logo from '../Images/AM-logo.png'
+import Am_logo from '../Images/a_whiteTransparent.png'
 
 const Hero = () => {
   return(
@@ -10,8 +10,8 @@ const Hero = () => {
         </div>
         <div className="nav_inner">
           <a href='#projects'>Projects</a>
-          <a href='#about'>About</a>
-          <a href='#tech'>Tech</a>
+          <a href='https://github.com/AMMSKI' target='_blank'>GitHub</a>
+          <a href='https://www.linkedin.com/in/alan-mamulski/' target='_blank'>LinkedIn</a>
         </div>
       </div>
       <div className='hero_header'>
