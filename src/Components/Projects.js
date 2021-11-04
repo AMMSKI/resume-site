@@ -12,40 +12,35 @@ const Projects = () => {
       </div>
       <div className='project_inner'>
         <div className='project_info'>
-          <h2>blah blah balh</h2><br/>
-          <p>this project does this this and this </p>
+        <div className='project_info_header'>
+          <h2 style={{margin:'0'}}>Loyal Burger</h2>
+          <p style={{margin:'0'}}>One loyalty app for all of your favorite restuarants </p>
+          <a href='https://github.com/AMMSKI/loyalty_app' target='_blank'>View Code</a>
+          <a href='https://loyalburger.herokuapp.com/' target="_blank">See Live</a>
+          </div>
           <ul>
-            <li>this</li>
-            <li>and this</li>
-            <li>and this</li>
+            <li>React SPA with react-router</li>
+            <li>Ruby On Rails backend</li>
+            <li>PostgresQL Database</li>
+            <li>Login with different user permissions</li>
+            <li>Earn loyalty points and cash them in</li>
           </ul>
         </div>
         <div className='video_container'>
           <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
         </div>
       </div>
-      {/* <div className='project_inner'>
-        <div className='video_container'>
-          <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
-        </div>
-        <div className='project_info'>
-          <h2>blah blah balh</h2><br/>
-          <p>this project does this this and this </p>
-          <ul>
-            <li>this</li>
-            <li>and this</li>
-            <li>and this</li>
-          </ul>
-        </div>
-      </div> */}
       <div className='project_inner'>
         <div className='project_info'>
-          <h2>blah blah balh</h2><br/>
-          <p>this project does this this and this </p>
+          <div className='project_info_header'>
+          <h2 style={{margin:'0'}}>MYspace</h2>
+          <p style={{margin:'0'}}>Starwars themed social app</p>
+          <a href='https://github.com/AMMSKI/myspace_hm' target="_blank">View Code</a>
+          </div>
           <ul>
-            <li>this</li>
-            <li>and this</li>
-            <li>and this</li>
+            <li>SQL commands with PostgresQL</li>
+            <li>Supports posts, comments, and likes</li>
+            <li>Find and follow friends to see their posts</li>
           </ul>
         </div>
         <div className='video_container'>
