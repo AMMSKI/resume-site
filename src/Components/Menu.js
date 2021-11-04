@@ -10,9 +10,9 @@ const Menu = () => {
         <div>
           <Dropdown onClick={()=>setShowMenu(!showMenu)} className='dropdown_list'>
             <a href='#projects'>Projects</a>
-            <a href='https://github.com/AMMSKI' target='_blank'>GitHub</a>
-            <a href='https://www.linkedin.com/in/alan-mamulski/' target='_blank'>LinkedIn</a>
-            <a href='https://www.canva.com/design/DAEtxdDd0_w/2a-jMvSZtWEsNCbN80xxkg/view?utm_content=DAEtxdDd0_w&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton' target='_blank'>Resume</a>
+            <a href='https://github.com/AMMSKI' target='_blank' rel="noreferrer">GitHub</a>
+            <a href='https://www.linkedin.com/in/alan-mamulski/' target='_blank' rel="noreferrer">LinkedIn</a>
+            <a href='https://www.canva.com/design/DAEtxdDd0_w/2a-jMvSZtWEsNCbN80xxkg/view?utm_content=DAEtxdDd0_w&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton' target='_blank' rel="noreferrer">Resume</a>
           </Dropdown>
         </div> :
         <div onClick={()=>setShowMenu(!showMenu)}>

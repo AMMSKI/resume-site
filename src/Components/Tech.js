@@ -14,56 +14,56 @@ const Tech = () => {
       <div className='tech_inner'>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={ruby_logo}/>
+          <img alt='Ruby' src={ruby_logo}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-            <img src={js_image} />
+            <img alt='jsLogo' src={js_image} />
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={html_image}/>
+          <img alt='html' src={html_image}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={css_image}/>
+          <img alt='css' src={css_image}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-            <img src={react_image}/>
+            <img alt='react' src={react_image}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={rails_image}/>
+          <img alt='rails' src={rails_image}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={postgres_image}/>
+          <img alt='postgresQL' src={postgres_image}/>
           </div>
           <div className='tech_description'>
           </div>
         </div>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img src={jest_image}/>
+          <img alt='jest' src={jest_image}/>
           </div>
           <div className='tech_description'>
           </div>
