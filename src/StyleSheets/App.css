@@ -1,7 +1,7 @@
 /* 
 Off#f8f8ff = #F0F6F7
 Greytext = #f8f8ff
-font-family = Zen Antique Soft
+font-family = Roboto
  */
 
 .App {
@@ -11,30 +11,50 @@ font-family = Zen Antique Soft
 html {
   scroll-behavior: smooth;
 }
-
 /* hero section styles  */
-
-.hero_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  height: 85vh;
-  background-size: cover;
-  background-attachment: fixed;
-  background-image: url(../Images/stary-back.jpeg);
+.hero_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
 }
-
 .hero_header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-size: 24px;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
   color: #f8f8ff;
   height: 100%;
   margin-bottom: 10%;
+  z-index: 1;
 }
+@media screen and (min-width:400px) {
+  .hero_container {
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-image: url(../Images/stary-back.jpeg);
+  }
+  .moblie_background{
+    display: none;
+  }
+}
+
+@media screen and (max-width:400px){
+  .moblie_background{
+    position: fixed;
+    background-position: center center;
+    z-index: -1;
+    left: 0;
+    height: 100vh;
+  }
+  .hero_header{
+    margin-bottom: 50%;
+  }
+}
+
 
 .nav_bar{
   display: flex;
@@ -51,7 +71,7 @@ html {
 
 @media screen and (min-width:400px){
   
-  .hamburger_menu{
+  .hamburger_menu {
     display: none;
   }
   
@@ -79,7 +99,7 @@ html {
   padding: 0 !important;
   font-weight: 400;
   font-size: larger;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
 }
 
 .dropdown_list a:hover{
@@ -102,7 +122,7 @@ html {
   color: #f8f8ff;
   font-weight: 400;
   font-size: larger;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
   padding-right: 10px;
   padding-left: 40px;
 }
@@ -125,7 +145,7 @@ html {
 
 .project_header{
   font-size: 24px;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
   color: #505050;
 }
 
@@ -143,7 +163,7 @@ html {
  width: 50%;
  text-align: left;
  font-weight: 900;
- font-family: Zen Antique Soft;
+ font-family: 'Roboto', sans-serif;
 }
 
 .project_info_header{
@@ -157,7 +177,7 @@ html {
   color: #505050;
   font-weight: 400;
   font-size: larger;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
 }
 
 .project_info_header a:hover {
@@ -244,7 +264,7 @@ html {
 
  .about_header{
   font-size: 24px;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #505050;
  }
@@ -254,7 +274,7 @@ html {
   color: #505050;
   font-weight: 400;
   font-size: larger;
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
  }
 
  .about_container a:hover {
@@ -263,7 +283,7 @@ html {
 }
 
  .about_body{
-  font-family: Zen Antique Soft;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
   color: #505050;
