@@ -1,5 +1,6 @@
 import React from "react";
 import Am_logo from '../Images/a_whiteTransparent.png'
+import Menu from "./Menu";
 
 const Hero = () => {
   return(
@@ -7,6 +8,9 @@ const Hero = () => {
       <div className='nav_bar'>
         <div>
           <img className='footer_icon' src={Am_logo} />
+        </div>
+        <div className='hamburger_menu'>
+          <Menu />
         </div>
         <div className="nav_inner">
           <a href='#projects'>Projects</a>

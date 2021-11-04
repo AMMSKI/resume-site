@@ -39,7 +39,7 @@ const Projects = () => {
           </div>
           <ul>
             <li>SQL commands with PostgresQL</li>
-            <li>Supports posts, comments, and likes</li>
+            <li>Supports posts, comments and likes</li>
             <li>Find and follow friends to see their posts</li>
           </ul>
         </div>
