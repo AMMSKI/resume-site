@@ -16,6 +16,7 @@ const Hero = () => {
           <a href='#projects'>Projects</a>
           <a href='https://github.com/AMMSKI' target='_blank'>GitHub</a>
           <a href='https://www.linkedin.com/in/alan-mamulski/' target='_blank'>LinkedIn</a>
+          <a href='https://www.canva.com/design/DAEtxdDd0_w/2a-jMvSZtWEsNCbN80xxkg/view?utm_content=DAEtxdDd0_w&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton' target='_blank'>Resume</a>
         </div>
       </div>
       <div className='hero_header'>

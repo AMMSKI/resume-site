@@ -33,6 +33,7 @@ html {
   font-family: Zen Antique Soft;
   color: #f8f8ff;
   height: 100%;
+  margin-bottom: 10%;
 }
 
 .nav_bar{
@@ -49,6 +50,7 @@ html {
 }
 
 @media screen and (min-width:400px){
+  
   .hamburger_menu{
     display: none;
   }
@@ -74,6 +76,7 @@ html {
   text-decoration: none;
   color: #505050 !important;
   margin: 5px;
+  padding: 0 !important;
   font-weight: 400;
   font-size: larger;
   font-family: Zen Antique Soft;
@@ -87,7 +90,6 @@ html {
 .nav_inner{
   display: flex;
   justify-content: space-around;
-  width: 20vw;
   padding-left: 10px;
 }
 @media screen and (max-width:400px){
@@ -101,6 +103,8 @@ html {
   font-weight: 400;
   font-size: larger;
   font-family: Zen Antique Soft;
+  padding-right: 10px;
+  padding-left: 40px;
 }
 
 .nav_bar a:hover {
@@ -180,6 +184,12 @@ html {
   }
 }
 
+@media screen and (min-width:400px) {
+  #video_link{
+    display: none;
+  }
+  
+}
 
  /* Tech section styles */
 

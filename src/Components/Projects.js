@@ -17,6 +17,7 @@ const Projects = () => {
           <p style={{margin:'0'}}>One loyalty app for all of your favorite restuarants </p>
           <a href='https://github.com/AMMSKI/loyalty_app' target='_blank'>View Code</a>
           <a href='https://loyalburger.herokuapp.com/' target="_blank">See Live</a>
+          <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>See Video</a>
           </div>
           <ul>
             <li>React SPA with react-router</li>
@@ -36,6 +37,7 @@ const Projects = () => {
           <h2 style={{margin:'0'}}>MYspace</h2>
           <p style={{margin:'0'}}>Starwars themed social app</p>
           <a href='https://github.com/AMMSKI/myspace_hm' target="_blank">View Code</a>
+          <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank'>See Video</a>
           </div>
           <ul>
             <li>SQL commands with PostgresQL</li>
