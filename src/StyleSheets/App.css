@@ -218,10 +218,29 @@ html {
   justify-content: center;
   align-items: center;
   min-height: 40vh;
-  background-size:cover;
-  background-attachment: fixed;
-  background-image: url(../Images/cloud-mt-background.jpeg);
- }
+}
+@media screen and (min-width:400px){
+  .tech_container{
+    background-size:cover;
+    background-attachment: fixed;
+    background-image: url(../Images/cloud-mt-background.jpeg);
+  }
+  .moblie_tech_background{
+    display: none;
+  }
+}
+@media screen and (max-width:400px){
+  .moblie_tech_background{
+    position: fixed;
+    background-position: center center;
+    z-index: 0;
+    left: 0;
+    height: 100vh;
+  }
+  .hero_header{
+    margin-bottom: 50%;
+  }
+}
 
  .tech_inner{
    display: flex;

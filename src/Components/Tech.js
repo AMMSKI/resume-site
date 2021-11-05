@@ -7,14 +7,18 @@ import css_image from '../Images/css-logo.png'
 import postgres_image from '../Images/postgresql-logo.png'
 import ruby_logo from '../Images/new-ruby-logo.png'
 import jest_image from '../Images/jest-logo.png'
+import mt_background from '../Images/cloud-mt-background.jpeg'
+import { IoLogoReact } from 'react-icons/io5'
 
 const Tech = () => {
   return (
     <div id="tech" className='tech_container'>
       <div className='tech_inner'>
+      <img className='moblie_tech_background' src={mt_background}/>
         <div className='tech_item'>
           <div className='tech_logo'>
-          <img alt='Ruby' src={ruby_logo}/>
+            <IoLogoReact size='5em' />
+          {/* <img alt='Ruby' src={ruby_logo}/> */}
           </div>
           <div className='tech_description'>
           </div>

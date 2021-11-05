@@ -1,4 +1,5 @@
 import React from 'react';
+import 'react-icons/io'
 import ReactDOM from 'react-dom';
 import './StyleSheets/index.css';
 import App from './App';
