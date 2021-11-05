@@ -74,11 +74,24 @@ html {
   .hamburger_menu {
     display: none;
   }
-  
 }
 
 .menu_container{
   display: inline-block;
+  z-index: 1;
+}
+
+.ham_icon{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu_icon{
+  display: flex;
+  padding: 5px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .dropdown_list{
@@ -87,9 +100,11 @@ html {
   padding-right: 5px;
   background-color: white;
   position: relative;
-  width: 100px;
+  width: 30vw;
+  left: 0;
   border-radius: 8px;
-  overflow: visible;
+  overflow:visible;
+  z-index: 2;
 }
 
 .dropdown_list a {
