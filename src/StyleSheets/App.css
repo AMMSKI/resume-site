@@ -30,7 +30,7 @@ html {
   margin-bottom: 10%;
   z-index: 1;
 }
-@media screen and (min-width:400px) {
+@media screen and (min-width:450px) {
   .hero_container {
     background-size: cover;
     background-position: center center;
@@ -42,7 +42,7 @@ html {
   }
 }
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
   .moblie_background{
     position: fixed;
     background-position: center center;
@@ -70,7 +70,7 @@ html {
   padding-right: 5px;
 }
 
-@media screen and (min-width:400px){
+@media screen and (min-width:450px){
   
   .hamburger_menu {
     display: none;
@@ -128,7 +128,7 @@ html {
   justify-content: space-around;
   padding-left: 10px;
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
   .nav_inner{
   display: none;
   }
@@ -218,13 +218,13 @@ html {
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
   .video_container{
     display: none;
   }
 }
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:450px) {
   #video_link{
     display: none;
   }
@@ -239,7 +239,7 @@ html {
   align-items: center;
   min-height: 40vh;
 }
-@media screen and (min-width:px){
+@media screen and (min-width:850px){
   .tech_container{
     background-size:cover;
     background-attachment: fixed;
@@ -331,7 +331,7 @@ html {
   overflow-wrap: break-word;
  }
 
- @media screen and (max-width:400px){
+ @media screen and (max-width:450px){
    .about_body{
      width: 100%;
    }
