@@ -1,22 +1,20 @@
 import React from 'react'
 import '../StyleSheets/App.css';
-import linked from '../Images/black-linkedin.png'
-import gitlogo from '../Images/GitHub-Mark-64px.png'
-
+import { SiGithub, SiLinkedin } from 'react-icons/si'
 
 const Footer = () => {
   return (
     <div className='footer_container'>
       <div>
       <a href='https://www.linkedin.com/in/alan-mamulski/' target="_blank" rel="noreferrer">
-        <img alt='LinkedIn' className='footer_icon' src={linked}/>
+        <SiLinkedin style={{color:'white', padding:'10px'}} size='2em'/>
       </a>
       <a href='https://github.com/AMMSKI' target="_blank" rel="noreferrer">
-        <img alt='GitHub' className='footer_icon' src={gitlogo}/>
+        <SiGithub style={{color:'white', padding:'10px'}} size='2em'/>
       </a>
       </div>
     <div>
-      <p>&copy; 2021 AlanMamulski.com</p>
+      <p style={{color:'white'}}>&copy; 2021 AlanMamulski.com</p>
     </div>
     </div>
   )

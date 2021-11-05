@@ -223,7 +223,7 @@ html {
   .tech_container{
     background-size:cover;
     background-attachment: fixed;
-    background-image: url(../Images/cloud-mt-background.jpeg);
+    background-image: url(../Images/stary-back.jpeg);
   }
   .moblie_tech_background{
     display: none;
