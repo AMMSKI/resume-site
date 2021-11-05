@@ -6,7 +6,7 @@ import stary_background from '../Images/stary-back.jpeg'
 const Hero = () => {
   return(
     <div className='hero_container'>
-      <img className='moblie_background' src={stary_background} />
+      <img alt='star-background' className='moblie_background' src={stary_background} />
       <div className='nav_bar'>
         <div>
           <img alt='logo' className='footer_icon' src={Am_logo} />
