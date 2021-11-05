@@ -49,6 +49,7 @@ html {
     z-index: -1;
     left: 0;
     height: 100vh;
+    width: 100vw;
   }
   .hero_header{
     margin-bottom: 50%;
@@ -200,22 +201,26 @@ html {
   transform: scale(1.1); 
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:850px){
   .project_inner{
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
-  .video_container{
-    display: none;
-  }
   .project_info{
     display: flex;
     width: 100%;
     flex-direction: column;
+    align-items: center;
   }
   .project_info_header{
     align-items: center;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .video_container{
+    display: none;
   }
 }
 
@@ -234,7 +239,7 @@ html {
   align-items: center;
   min-height: 40vh;
 }
-@media screen and (min-width:400px){
+@media screen and (min-width:px){
   .tech_container{
     background-size:cover;
     background-attachment: fixed;
@@ -244,13 +249,14 @@ html {
     display: none;
   }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:850px){
   .moblie_tech_background{
     position: fixed;
     background-position: center center;
     z-index: 0;
     left: 0;
     height: 100vh;
+    width: 100vw;
   }
   .hero_header{
     margin-bottom: 50%;
