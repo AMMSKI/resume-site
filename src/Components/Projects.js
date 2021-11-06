@@ -17,7 +17,7 @@ const Projects = () => {
           <p style={{margin:'0', marginBottom:'10px'}}>All your loyalty points in one place </p>
           <a href='https://github.com/AMMSKI/loyalty_app' target='_blank' rel="noreferrer">View Code</a>
           <a href='https://loyalburger.herokuapp.com/' target="_blank" rel="noreferrer">See Live</a>
-          <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a>
+          {/* <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a> */}
           </div>
           <ul>
             <li>React SPA with react-router</li>
@@ -27,9 +27,9 @@ const Projects = () => {
             <li>Earn loyalty points and cash them in</li>
           </ul>
         </div>
-        <div className='video_container'>
+        {/* <div className='video_container'>
           <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
-        </div>
+        </div> */}
       </div>
       <div className='project_inner'>
         <div className='project_info'>
@@ -37,7 +37,7 @@ const Projects = () => {
           <h2 style={{margin:'0'}}>MYspace</h2>
           <p style={{margin:'0', marginBottom:'10px'}}>Starwars themed social app</p>
           <a href='https://github.com/AMMSKI/myspace_hm' target="_blank" rel="noreferrer">View Code</a>
-          <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a>
+          {/* <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a> */}
           </div>
           <ul>
             <li>SQL commands with PostgresQL</li>
@@ -45,9 +45,9 @@ const Projects = () => {
             <li>Find and follow friends to see their posts</li>
           </ul>
         </div>
-        <div className='video_container'>
+        {/* <div className='video_container'>
           <YoutubeEmbed embedId={'dQw4w9WgXcQ'} />
-        </div>
+        </div> */}
       </div>
     </div>
   )

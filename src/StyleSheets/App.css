@@ -201,7 +201,7 @@ html {
   transform: scale(1.1); 
 }
 
-@media screen and (max-width:850px){
+/* @media screen and (max-width:850px){ */
   .project_inner{
     flex-direction: column;
     align-items: center;
@@ -216,7 +216,7 @@ html {
   .project_info_header{
     align-items: center;
   }
-}
+/* } */
 
 @media screen and (max-width:450px) {
   .video_container{
