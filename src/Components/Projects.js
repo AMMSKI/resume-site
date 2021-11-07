@@ -16,6 +16,7 @@ const Projects = () => {
           <h2 style={{margin:'0'}}>Loyal Burger</h2>
           <p style={{margin:'0', marginBottom:'10px'}}>All your loyalty points in one place </p>
           <a href='https://github.com/AMMSKI/loyalty_app' target='_blank' rel="noreferrer">View Code</a>
+          <a href='https://github.com/AMMSKI/loyalty_app/commits?author=AMMSKI' target='_blank' rel="noreferrer">My Contributions</a>
           <a href='https://loyalburger.herokuapp.com/' target="_blank" rel="noreferrer">See Live</a>
           {/* <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a> */}
           </div>
@@ -37,6 +38,7 @@ const Projects = () => {
           <h2 style={{margin:'0'}}>MYspace</h2>
           <p style={{margin:'0', marginBottom:'10px'}}>Starwars themed social app</p>
           <a href='https://github.com/AMMSKI/myspace_hm' target="_blank" rel="noreferrer">View Code</a>
+          <a href='https://github.com/AMMSKI/myspace_hm/commits?author=AMMSKI' target="_blank" rel="noreferrer">My Contributions</a>
           {/* <a id='video_link' href='https://www.youtube.com/watch?v=dQw4w9WgXcQ' target='_blank' rel="noreferrer">See Video</a> */}
           </div>
           <ul>
