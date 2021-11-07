@@ -54,6 +54,9 @@ html {
   .hero_header{
     margin-bottom: 50%;
   }
+  #scroll_arrow{
+    display: none;
+  }
 }
 
 
@@ -239,7 +242,7 @@ html {
   align-items: center;
   min-height: 40vh;
 }
-@media screen and (min-width:850px){
+@media screen and (min-width:450px){
   .tech_container{
     background-size:cover;
     background-attachment: fixed;
@@ -249,7 +252,7 @@ html {
     display: none;
   }
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:450px){
   .moblie_tech_background{
     position: fixed;
     background-position: center center;
@@ -269,6 +272,7 @@ html {
    flex-wrap: wrap;
    justify-content: space-around;
  }
+
 
  .tech_item{
    display: flex;
@@ -353,4 +357,5 @@ html {
   height: 40px;
   padding: 5px
 }
+
 

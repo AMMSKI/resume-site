@@ -2,6 +2,7 @@ import React from "react";
 import Am_logo from '../Images/a_whiteTransparent.png'
 import Menu from "./Menu";
 import stary_background from '../Images/stary-back.jpeg'
+import { IoIosArrowDown } from 'react-icons/io'
 
 const Hero = () => {
   return(
@@ -24,6 +25,11 @@ const Hero = () => {
       <div className='hero_header'>
         <h1>Alan Mamulski</h1>
         <h3>Web Developer</h3>
+      </div>
+      <div id='scroll_arrow'>
+        <a  href='#about'>
+        <IoIosArrowDown style={{color:'white', paddingBottom:'10px'}}size='4em'/>
+        </a>
       </div>
     </div>
   )
