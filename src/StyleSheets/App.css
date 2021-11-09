@@ -179,12 +179,12 @@ html {
 }
 .project_info {
  color: #505050;
- /* width: 50%; */
+ width: 50%;
  text-align: left;
  font-weight: 900;
  font-family: 'Roboto', sans-serif;
  display: flex;
-  width: 100%;
+  /* width: 100%; */
   flex-direction: column;
   align-items: center;
 }
