@@ -1,5 +1,5 @@
 import React from "react";
-import Am_logo from '../Images/a_whiteTransparent.png'
+import Am_logo from '../Images/a-logo.png'
 import Menu from "./Menu";
 import stary_background from '../Images/stary-back.jpeg'
 import { IoIosArrowDown } from 'react-icons/io'
