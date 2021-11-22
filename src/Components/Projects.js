@@ -51,6 +51,7 @@ const Projects = () => {
           <YoutubeEmbed embedId={'625AuoUOgiI'} />
         </div>
       </div>
+      <a href='https://github.com/AMMSKI' target='_blank' rel="noreferrer">View All Projects</a>
     </div>
   )
 }
